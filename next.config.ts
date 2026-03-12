@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      { hostname: "i.pravatar.cc" },
+      { hostname: "images.unsplash.com" },
+      { hostname: "img.logoipsum.com" },
+      { hostname: "cdn.jsdelivr.net" },
+      { hostname: "images.stripeassets.com" },
+    ],
+  },
 };
 
 export default nextConfig;
