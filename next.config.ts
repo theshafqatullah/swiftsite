@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       { hostname: "images.unsplash.com" },
       { hostname: "img.logoipsum.com" },
       { hostname: "cdn.jsdelivr.net" },
+      { hostname: "cdn.simpleicons.org" },
       { hostname: "images.stripeassets.com" },
     ],
   },

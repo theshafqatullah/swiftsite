@@ -28,38 +28,14 @@ export const featureImages = {
 } as const;
 
 export const companyLogos: { name: string; logo: string }[] = [
-  {
-    name: "Acme Corp",
-    logo: "https://img.logoipsum.com/243.svg",
-  },
-  {
-    name: "TechFlow",
-    logo: "https://img.logoipsum.com/244.svg",
-  },
-  {
-    name: "Bloom Studio",
-    logo: "https://img.logoipsum.com/245.svg",
-  },
-  {
-    name: "NovaTech",
-    logo: "https://img.logoipsum.com/247.svg",
-  },
-  {
-    name: "Tidal",
-    logo: "https://img.logoipsum.com/248.svg",
-  },
-  {
-    name: "Vertex AI",
-    logo: "https://img.logoipsum.com/249.svg",
-  },
-  {
-    name: "Nimbus",
-    logo: "https://img.logoipsum.com/250.svg",
-  },
-  {
-    name: "Prism Labs",
-    logo: "https://img.logoipsum.com/251.svg",
-  },
+  { name: "Google", logo: "https://cdn.simpleicons.org/google" },
+  { name: "Microsoft", logo: "https://cdn.simpleicons.org/microsoft" },
+  { name: "Airbnb", logo: "https://cdn.simpleicons.org/airbnb" },
+  { name: "Slack", logo: "https://cdn.simpleicons.org/slack" },
+  { name: "Spotify", logo: "https://cdn.simpleicons.org/spotify" },
+  { name: "Shopify", logo: "https://cdn.simpleicons.org/shopify" },
+  { name: "Notion", logo: "https://cdn.simpleicons.org/notion" },
+  { name: "GitHub", logo: "https://cdn.simpleicons.org/github" },
 ];
 
 export const pressLogos: Record<string, string> = {

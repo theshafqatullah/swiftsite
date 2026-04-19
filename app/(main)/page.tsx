@@ -267,15 +267,16 @@ export default function HomePage() {
           <p className="text-center text-xs font-medium uppercase tracking-widest text-muted-foreground/60 mb-10">
             Trusted by teams at leading companies
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
+          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8">
             {logos.map((logo) => (
               <Image
                 key={logo.name}
                 src={logo.logo}
                 alt={logo.name}
-                width={120}
-                height={32}
-                className="h-7 w-auto opacity-50 hover:opacity-80 transition-opacity grayscale invert"
+                width={40}
+                height={40}
+                unoptimized
+                className="h-9 w-9 opacity-70 hover:opacity-100 transition-opacity"
               />
             ))}
           </div>
