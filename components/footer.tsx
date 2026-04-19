@@ -36,12 +36,12 @@ export function Footer() {
   return (
     <footer className="border-t border-border/40 bg-background">
       {/* CTA strip */}
-      <div className="border-b border-border/40 bg-[#A127FF]/[0.04]">
+      <div className="border-b border-border/40 bg-primary/[0.06]">
         <div className="mx-auto max-w-7xl px-6 py-14">
           <div className="flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
             <div className="space-y-1.5 max-w-md">
-              <div className="flex items-center gap-2 text-[#A127FF] mb-3">
-                <Zap className="size-4 fill-[#A127FF]" />
+              <div className="flex items-center gap-2 text-primary mb-3">
+                <Zap className="size-4 fill-primary" />
                 <span className="text-xs font-semibold uppercase tracking-widest">Get started free</span>
               </div>
               <h3 className="text-2xl font-bold tracking-tight text-foreground">
@@ -54,7 +54,7 @@ export function Footer() {
             <div className="flex flex-col gap-3 sm:items-end">
               <Button
                 size="lg"
-                className="bg-[#A127FF] text-white hover:bg-[#A127FF]/90 shadow-[0_0_24px_rgba(161,39,255,0.25)] hover:shadow-[0_0_32px_rgba(161,39,255,0.35)] transition-all"
+                className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_24px_rgba(235,180,51,0.3)] hover:shadow-[0_0_32px_rgba(235,180,51,0.4)] transition-all"
                 asChild
               >
                 <Link href="/pricing">
@@ -98,7 +98,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="flex size-8 items-center justify-center border border-border/60 text-muted-foreground transition-colors hover:border-[#A127FF]/40 hover:text-[#A127FF]"
+                  className="flex size-8 items-center justify-center border border-border/60 text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
                 >
                   <Icon className="size-3.5" />
                 </a>
