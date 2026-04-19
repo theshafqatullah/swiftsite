@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Swiftsite — AI Website Builder",
-    template: "%s | Swiftsite",
+    default: "Flashsite — AI Website Builder",
+    template: "%s | Flashsite",
   },
   description: "Build beautiful, production-ready websites in minutes with AI. No coding required.",
 };

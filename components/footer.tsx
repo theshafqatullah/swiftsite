@@ -48,7 +48,7 @@ export function Footer() {
                 Ready to build something amazing?
               </h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Join thousands of teams shipping faster with Swiftsite. No credit card required.
+                Join thousands of teams shipping faster with Flashsite. No credit card required.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:items-end">
@@ -133,7 +133,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-border/40 pt-6 sm:flex-row sm:items-center">
           <p className="text-xs text-muted-foreground/70">
-            &copy; {new Date().getFullYear()} Swiftsite, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} Flashsite, Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-1">
             <span className="inline-block size-1.5 rounded-full bg-emerald-500 animate-pulse" />

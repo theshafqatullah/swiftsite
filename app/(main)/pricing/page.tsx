@@ -7,10 +7,10 @@ const plans = [
     name: "Free",
     price: "$0",
     period: "forever",
-    description: "For trying Swiftsite and building your first site.",
+    description: "For trying Flashsite and building your first site.",
     features: [
       "1 published site",
-      "Swiftsite subdomain",
+      "Flashsite subdomain",
       "AI page generation (10/mo)",
       "Basic analytics",
       "Community support",
@@ -86,7 +86,7 @@ const testimonials = [
   {
     name: "Sarah Chen",
     role: "Founder, Bloom Studio",
-    quote: "Switched from Webflow to Swiftsite and cut our project turnaround time by 80%. The Pro plan pays for itself.",
+    quote: "Switched from Webflow to Flashsite and cut our project turnaround time by 80%. The Pro plan pays for itself.",
     stars: 5,
   },
   {

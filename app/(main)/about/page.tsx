@@ -67,7 +67,7 @@ const timeline = [
     year: "2025 Q1",
     title: "Founded",
     description:
-      "Swiftsite was born from a simple idea: building websites shouldn't require weeks of work or thousands of dollars.",
+      "Flashsite was born from a simple idea: building websites shouldn't require weeks of work or thousands of dollars.",
   },
   {
     year: "2025 Q2",
@@ -105,7 +105,7 @@ const team = [
   {
     name: "Priya Sharma",
     role: "Co-founder & CTO",
-    bio: "Former ML researcher at DeepMind. Built the AI engine that powers Swiftsite's generation capabilities.",
+    bio: "Former ML researcher at DeepMind. Built the AI engine that powers Flashsite's generation capabilities.",
     avatar: teamAvatars.priyaSharma,
   },
   {
@@ -117,14 +117,14 @@ const team = [
   {
     name: "Sam Nakamura",
     role: "Head of Engineering",
-    bio: "Senior engineer at Stripe. Architect behind Swiftsite's infrastructure and performance optimizations.",
+    bio: "Senior engineer at Stripe. Architect behind Flashsite's infrastructure and performance optimizations.",
     avatar: teamAvatars.samNakamura,
   },
 ];
 
 const press = [
-  { outlet: "TechCrunch", quote: "Swiftsite is the fastest path from idea to live website we've ever seen.", logo: pressLogos["TechCrunch"] },
-  { outlet: "The Verge", quote: "AI website builders just got serious. Swiftsite leads the pack.", logo: pressLogos["The Verge"] },
+  { outlet: "TechCrunch", quote: "Flashsite is the fastest path from idea to live website we've ever seen.", logo: pressLogos["TechCrunch"] },
+  { outlet: "The Verge", quote: "AI website builders just got serious. Flashsite leads the pack.", logo: pressLogos["The Verge"] },
   { outlet: "Product Hunt", quote: "#1 Product of the Day with over 2,000 upvotes.", logo: pressLogos["Product Hunt"] },
 ];
 
@@ -188,7 +188,7 @@ export default function AboutPage() {
             </div>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                Swiftsite was born from a simple frustration: building a website
+                Flashsite was born from a simple frustration: building a website
                 shouldn&apos;t require weeks of work, a design degree, or thousands
                 of dollars. We saw that AI could change this — and we set out to
                 prove it.
@@ -200,7 +200,7 @@ export default function AboutPage() {
                 making the web accessible to everyone.
               </p>
               <p>
-                Today, Swiftsite powers over 50,000 websites across 120+ countries
+                Today, Flashsite powers over 50,000 websites across 120+ countries
                 — from freelance portfolios and startup landing pages to local
                 business storefronts and creator blogs. And we&apos;re just getting
                 started.
@@ -376,7 +376,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:py-32">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-              Try Swiftsite today
+              Try Flashsite today
             </h2>
             <p className="mt-4 text-muted-foreground text-lg">
               Build your website in seconds. No credit card required.

@@ -30,7 +30,7 @@ const sections = [
     id: "information-we-collect",
     title: "1. Information We Collect",
     content: [
-      "We collect information you provide when creating an account, using our services, or contacting support. This includes your name, email address, and website content you create through Swiftsite.",
+      "We collect information you provide when creating an account, using our services, or contacting support. This includes your name, email address, and website content you create through Flashsite.",
       "We also collect usage data automatically, including browser type, device information, IP address, pages visited, and actions taken within the platform. This helps us improve our service and troubleshoot issues.",
       "When you make a purchase, our payment processor (Stripe) handles your payment information directly. We do not store credit card numbers on our servers.",
     ],
@@ -48,7 +48,7 @@ const sections = [
     id: "data-sharing",
     title: "3. Data Sharing & Third Parties",
     content: [
-      "We share data only with service providers who help us operate Swiftsite — including hosting (AWS), analytics (PostHog), payment processing (Stripe), and email delivery (Resend). All providers are contractually bound to protect your data.",
+      "We share data only with service providers who help us operate Flashsite — including hosting (AWS), analytics (PostHog), payment processing (Stripe), and email delivery (Resend). All providers are contractually bound to protect your data.",
       "We may disclose information if required by law, court order, or government request. We will notify you of such requests when legally permitted.",
       "We never sell your personal data to advertisers or data brokers.",
     ],
@@ -86,14 +86,14 @@ const sections = [
     content: [
       "You have the right to access, correct, export, or delete your personal data at any time. Most actions can be performed directly from your account settings.",
       "If you are in the EU, you have additional rights under GDPR including the right to restrict processing, the right to data portability, and the right to object to processing.",
-      "To exercise any of these rights, contact us at privacy@swiftsite.dev. We respond to all requests within 30 days.",
+      "To exercise any of these rights, contact us at privacy@flashsite.dev. We respond to all requests within 30 days.",
     ],
   },
   {
     id: "children",
     title: "8. Children's Privacy",
     content: [
-      "Swiftsite is not intended for users under the age of 13 (or 16 in the EU). We do not knowingly collect personal information from children.",
+      "Flashsite is not intended for users under the age of 13 (or 16 in the EU). We do not knowingly collect personal information from children.",
       "If we become aware that we have collected data from a child, we will delete it promptly. If you believe a child has provided us with personal data, please contact us.",
     ],
   },
@@ -102,15 +102,15 @@ const sections = [
     title: "9. Changes to This Policy",
     content: [
       "We may update this privacy policy from time to time. We will notify you of material changes via email and/or a prominent notice on our platform at least 30 days before the changes take effect.",
-      "Continued use of Swiftsite after changes are posted constitutes acceptance of the updated policy.",
+      "Continued use of Flashsite after changes are posted constitutes acceptance of the updated policy.",
     ],
   },
   {
     id: "contact",
     title: "10. Contact Us",
     content: [
-      "If you have questions about this privacy policy or how we handle your data, please contact our Data Protection Officer at privacy@swiftsite.dev.",
-      "You can also reach us by mail at: Swiftsite Inc., 548 Market St, Suite 300, San Francisco, CA 94104.",
+      "If you have questions about this privacy policy or how we handle your data, please contact our Data Protection Officer at privacy@flashsite.dev.",
+      "You can also reach us by mail at: Flashsite Inc., 548 Market St, Suite 300, San Francisco, CA 94104.",
     ],
   },
 ];

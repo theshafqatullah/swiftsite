@@ -7,7 +7,7 @@ const sections = [
     id: "acceptance",
     title: "1. Acceptance of Terms",
     content: [
-      "By accessing or using Swiftsite, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services.",
+      "By accessing or using Flashsite, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services.",
       "These terms apply to all users, including visitors, free account holders, and paid subscribers. By creating an account, you confirm that you are at least 18 years old (or the age of majority in your jurisdiction).",
     ],
   },
@@ -15,8 +15,8 @@ const sections = [
     id: "use-of-service",
     title: "2. Use of Service",
     content: [
-      "Swiftsite provides AI-powered website building tools including page generation, visual editing, hosting, and code export. You may use the service for lawful purposes only.",
-      "You agree not to use Swiftsite to create websites that contain illegal content, promote violence or hatred, distribute malware, infringe on intellectual property, or engage in spam or phishing.",
+      "Flashsite provides AI-powered website building tools including page generation, visual editing, hosting, and code export. You may use the service for lawful purposes only.",
+      "You agree not to use Flashsite to create websites that contain illegal content, promote violence or hatred, distribute malware, infringe on intellectual property, or engage in spam or phishing.",
       "We reserve the right to suspend or terminate accounts that violate these terms or that we reasonably believe are being used for harmful purposes.",
     ],
   },
@@ -25,16 +25,16 @@ const sections = [
     title: "3. Accounts & Security",
     content: [
       "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.",
-      "You must notify us immediately at security@swiftsite.dev if you become aware of any unauthorized access to your account.",
-      "We recommend enabling two-factor authentication (2FA) for additional security. Swiftsite is not liable for losses resulting from unauthorized account access due to your failure to protect your credentials.",
+      "You must notify us immediately at security@flashsite.dev if you become aware of any unauthorized access to your account.",
+      "We recommend enabling two-factor authentication (2FA) for additional security. Flashsite is not liable for losses resulting from unauthorized account access due to your failure to protect your credentials.",
     ],
   },
   {
     id: "intellectual-property",
     title: "4. Intellectual Property",
     content: [
-      "You retain full ownership of all content you create using Swiftsite, including website designs, text, images, and exported code. We claim no ownership over your content.",
-      "Swiftsite retains ownership of the platform, its underlying technology, AI models, branding, documentation, and all proprietary materials.",
+      "You retain full ownership of all content you create using Flashsite, including website designs, text, images, and exported code. We claim no ownership over your content.",
+      "Flashsite retains ownership of the platform, its underlying technology, AI models, branding, documentation, and all proprietary materials.",
       "By using our AI generation features, you grant us a limited license to process your prompts and content solely for the purpose of providing the service. We do not use your content to train our AI models unless you explicitly opt in.",
     ],
   },
@@ -52,7 +52,7 @@ const sections = [
     id: "hosting",
     title: "6. Hosting & Availability",
     content: [
-      "Swiftsite provides hosting for published websites on our global edge network. We target 99.99% uptime for paid plans and 99.9% for free plans.",
+      "Flashsite provides hosting for published websites on our global edge network. We target 99.99% uptime for paid plans and 99.9% for free plans.",
       "We perform regular maintenance and updates to improve the platform. Scheduled maintenance windows are announced at least 48 hours in advance.",
       "In the event of prolonged downtime exceeding our SLA, Team plan customers may be eligible for service credits as outlined in their service agreement.",
     ],
@@ -69,8 +69,8 @@ const sections = [
     id: "limitation",
     title: "8. Limitation of Liability",
     content: [
-      "Swiftsite is provided \"as is\" and \"as available\" without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement.",
-      "To the maximum extent permitted by law, Swiftsite's total liability for any claims arising from your use of the service shall not exceed the amount you paid us in the 12 months preceding the claim.",
+      "Flashsite is provided \"as is\" and \"as available\" without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement.",
+      "To the maximum extent permitted by law, Flashsite's total liability for any claims arising from your use of the service shall not exceed the amount you paid us in the 12 months preceding the claim.",
       "We are not liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of revenue, or business interruption.",
     ],
   },
@@ -78,7 +78,7 @@ const sections = [
     id: "indemnification",
     title: "9. Indemnification",
     content: [
-      "You agree to indemnify and hold harmless Swiftsite, its officers, directors, employees, and agents from any claims, damages, or expenses arising from your use of the service, your content, or your violation of these terms.",
+      "You agree to indemnify and hold harmless Flashsite, its officers, directors, employees, and agents from any claims, damages, or expenses arising from your use of the service, your content, or your violation of these terms.",
     ],
   },
   {
@@ -94,7 +94,7 @@ const sections = [
     title: "11. Governing Law",
     content: [
       "These terms are governed by the laws of the State of California, United States, without regard to conflict of law principles.",
-      "Any disputes arising from these terms or your use of Swiftsite shall be resolved through binding arbitration in San Francisco, CA under the rules of the American Arbitration Association.",
+      "Any disputes arising from these terms or your use of Flashsite shall be resolved through binding arbitration in San Francisco, CA under the rules of the American Arbitration Association.",
     ],
   },
   {
@@ -102,14 +102,14 @@ const sections = [
     title: "12. Changes to Terms",
     content: [
       "We may update these terms from time to time. Material changes will be communicated via email and/or a prominent notice on the platform at least 30 days before taking effect.",
-      "Continued use of Swiftsite after updated terms are posted constitutes acceptance. If you disagree with the changes, you may close your account before the new terms take effect.",
+      "Continued use of Flashsite after updated terms are posted constitutes acceptance. If you disagree with the changes, you may close your account before the new terms take effect.",
     ],
   },
   {
     id: "contact",
     title: "13. Contact",
     content: [
-      "Questions about these terms? Contact us at legal@swiftsite.dev or by mail at: Swiftsite Inc., 548 Market St, Suite 300, San Francisco, CA 94104.",
+      "Questions about these terms? Contact us at legal@flashsite.dev or by mail at: Flashsite Inc., 548 Market St, Suite 300, San Francisco, CA 94104.",
     ],
   },
 ];
@@ -134,7 +134,7 @@ export default function TermsPage() {
               Last updated: March 10, 2026
             </p>
             <p className="mt-6 text-lg text-muted-foreground">
-              Please read these terms carefully before using Swiftsite.
+              Please read these terms carefully before using Flashsite.
             </p>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function TermsPage() {
                 <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="text-foreground mt-1">•</span>
-                    You own all content you create with Swiftsite
+                    You own all content you create with Flashsite
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-foreground mt-1">•</span>

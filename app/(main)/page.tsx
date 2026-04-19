@@ -35,7 +35,7 @@ const categories = [
 ];
 
 const benchmarks = [
-  { name: "Swiftsite", score: 94, highlight: true },
+  { name: "Flashsite", score: 94, highlight: true },
   { name: "Webflow", score: 72, highlight: false },
   { name: "Framer", score: 68, highlight: false },
   { name: "Wix AI", score: 58, highlight: false },
@@ -44,7 +44,7 @@ const benchmarks = [
 ];
 
 const designBenchmarks = [
-  { name: "Swiftsite", score: 9.4, highlight: true },
+  { name: "Flashsite", score: 9.4, highlight: true },
   { name: "Framer", score: 8.1, highlight: false },
   { name: "Webflow", score: 7.6, highlight: false },
   { name: "Squarespace", score: 7.2, highlight: false },
@@ -57,7 +57,7 @@ const features = [
     icon: Globe,
     title: "Build any site, any style",
     description:
-      "Create landing pages, portfolios, stores, blogs, dashboards, and more. Swiftsite supports every modern design pattern.",
+      "Create landing pages, portfolios, stores, blogs, dashboards, and more. Flashsite supports every modern design pattern.",
   },
   {
     icon: Paintbrush,
@@ -102,7 +102,7 @@ const steps = [
     number: "02",
     title: "AI builds it instantly",
     description:
-      "In under 30 seconds, Swiftsite generates a fully designed, responsive website with real content, images, and interactions.",
+      "In under 30 seconds, Flashsite generates a fully designed, responsive website with real content, images, and interactions.",
   },
   {
     number: "03",
@@ -123,7 +123,7 @@ const testimonials = [
     name: "Sarah Chen",
     role: "Founder, Bloom Studio",
     quote:
-      "Swiftsite replaced our entire design-to-dev pipeline. We went from concept to live landing page in 2 minutes flat.",
+      "Flashsite replaced our entire design-to-dev pipeline. We went from concept to live landing page in 2 minutes flat.",
     stars: 5,
     avatar: avatars.sarahChen,
   },
@@ -181,11 +181,11 @@ const logos = companyLogos;
 const faqs = [
   {
     q: "Do I need coding experience?",
-    a: "Not at all. Swiftsite is designed for everyone — from complete beginners to experienced developers. Just describe what you want in plain language.",
+    a: "Not at all. Flashsite is designed for everyone — from complete beginners to experienced developers. Just describe what you want in plain language.",
   },
   {
     q: "Can I use my own domain?",
-    a: "Yes. Connect any custom domain with one click, or use a free swiftsite.dev subdomain. SSL certificates are included automatically.",
+    a: "Yes. Connect any custom domain with one click, or use a free flashsite.dev subdomain. SSL certificates are included automatically.",
   },
   {
     q: "What frameworks does the exported code use?",
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     q: "Is there a free plan?",
-    a: "Yes. The free plan includes 1 published site, AI generation, and a Swiftsite subdomain. Upgrade anytime for more features.",
+    a: "Yes. The free plan includes 1 published site, AI generation, and a Flashsite subdomain. Upgrade anytime for more features.",
   },
   {
     q: "Can I cancel my subscription anytime?",
@@ -220,7 +220,7 @@ export default function HomePage() {
               Build any website
             </h1>
             <p className="mt-6 text-lg text-muted-foreground sm:text-xl lg:text-2xl animate-fade-in-up-delay-1 max-w-2xl mx-auto leading-relaxed">
-              Describe what you want. Swiftsite&apos;s AI builds it{" "}
+              Describe what you want. Flashsite&apos;s AI builds it{" "}
               <span className="text-primary font-semibold">in seconds</span> — beautiful,
               responsive, production-ready.
             </p>
@@ -597,7 +597,7 @@ export default function HomePage() {
               Frequently asked questions
             </h2>
             <p className="mt-4 text-muted-foreground text-lg">
-              Everything you need to know about Swiftsite.
+              Everything you need to know about Flashsite.
             </p>
           </div>
 

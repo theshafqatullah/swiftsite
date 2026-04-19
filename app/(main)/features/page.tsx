@@ -143,16 +143,16 @@ const highlights = [
 ];
 
 const comparisons = [
-  { feature: "AI page generation", swiftsite: true, webflow: false, wix: true, squarespace: false },
-  { feature: "Visual editor", swiftsite: true, webflow: true, wix: true, squarespace: true },
-  { feature: "Code export", swiftsite: true, webflow: true, wix: false, squarespace: false },
-  { feature: "AI copywriting", swiftsite: true, webflow: false, wix: true, squarespace: false },
-  { feature: "AI image generation", swiftsite: true, webflow: false, wix: false, squarespace: false },
-  { feature: "Custom domains", swiftsite: true, webflow: true, wix: true, squarespace: true },
-  { feature: "Version history", swiftsite: true, webflow: true, wix: false, squarespace: false },
-  { feature: "SEO tools", swiftsite: true, webflow: true, wix: true, squarespace: true },
-  { feature: "Real-time collaboration", swiftsite: true, webflow: false, wix: false, squarespace: false },
-  { feature: "Free tier", swiftsite: true, webflow: true, wix: true, squarespace: false },
+  { feature: "AI page generation", flashsite: true, webflow: false, wix: true, squarespace: false },
+  { feature: "Visual editor", flashsite: true, webflow: true, wix: true, squarespace: true },
+  { feature: "Code export", flashsite: true, webflow: true, wix: false, squarespace: false },
+  { feature: "AI copywriting", flashsite: true, webflow: false, wix: true, squarespace: false },
+  { feature: "AI image generation", flashsite: true, webflow: false, wix: false, squarespace: false },
+  { feature: "Custom domains", flashsite: true, webflow: true, wix: true, squarespace: true },
+  { feature: "Version history", flashsite: true, webflow: true, wix: false, squarespace: false },
+  { feature: "SEO tools", flashsite: true, webflow: true, wix: true, squarespace: true },
+  { feature: "Real-time collaboration", flashsite: true, webflow: false, wix: false, squarespace: false },
+  { feature: "Free tier", flashsite: true, webflow: true, wix: true, squarespace: false },
 ];
 
 export default function FeaturesPage() {
@@ -172,7 +172,7 @@ export default function FeaturesPage() {
               Everything you need to build the web
             </h1>
             <p className="mt-6 text-lg text-muted-foreground">
-              From AI generation to visual editing to one-click deploy — Swiftsite
+              From AI generation to visual editing to one-click deploy — Flashsite
               is the complete platform.
             </p>
           </div>
@@ -254,7 +254,7 @@ export default function FeaturesPage() {
               Comparison
             </p>
             <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-              How Swiftsite compares
+              How Flashsite compares
             </h2>
           </div>
 
@@ -265,7 +265,7 @@ export default function FeaturesPage() {
                   <th className="pb-4 text-left font-medium text-muted-foreground">
                     Feature
                   </th>
-                  <th className="pb-4 text-center font-semibold">Swiftsite</th>
+                  <th className="pb-4 text-center font-semibold">Flashsite</th>
                   <th className="pb-4 text-center font-medium text-muted-foreground">
                     Webflow
                   </th>
@@ -282,7 +282,7 @@ export default function FeaturesPage() {
                   <tr key={row.feature}>
                     <td className="py-4 text-muted-foreground">{row.feature}</td>
                     <td className="py-4 text-center">
-                      {row.swiftsite ? (
+                      {row.flashsite ? (
                         <Check className="size-4 mx-auto text-primary" />
                       ) : (
                         <span className="text-muted-foreground/40">—</span>

@@ -19,7 +19,7 @@ const contactMethods = [
     icon: Mail,
     title: "Email",
     description: "Our team typically responds within 2 hours.",
-    detail: "hello@swiftsite.dev",
+    detail: "hello@flashsite.dev",
   },
   {
     icon: MessageSquare,
@@ -52,10 +52,10 @@ const faqs = [
   },
   {
     q: "Can I schedule a demo?",
-    a: "Absolutely. Fill out the contact form and mention you'd like a demo. We'll set up a personalized walkthrough of Swiftsite for you or your team.",
+    a: "Absolutely. Fill out the contact form and mention you'd like a demo. We'll set up a personalized walkthrough of Flashsite for you or your team.",
   },
   {
-    q: "Where is Swiftsite based?",
+    q: "Where is Flashsite based?",
     a: "Our headquarters is in San Francisco, CA. We have a distributed team across the US, Europe, and Asia.",
   },
   {
